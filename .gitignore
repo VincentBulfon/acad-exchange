@@ -1,0 +1,23 @@
+#ignore tous les fichiers à la racine
+
+/*
+
+
+
+#n'ignore pas les fichiers suivants
+
+!.gitignore
+!README.md
+
+#Ajouter tous les fichiers que vous souhaitez ajouter au repository
+
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/acadexchange
+/wp-content/themes/acadexchange/dist
+/wp-content/themes/acadexchange/yarn.lock
+/wp-content/themes/acadexchange/mix-manifest.json
+/wp-content/themes/acadexchange/node_modules/*
+/wp-content/themes/acadexchange/.idea
